@@ -14,6 +14,7 @@ echo "========================"
 echo "Executing update_index.sh"
 echo "========================"
 bash /app/.github/scripts/update_index.sh /app/todo_output.txt /app/test_output.txt
+cp /app/index.html /output/index.html
 
 echo "========================"
 echo "Done!!"
